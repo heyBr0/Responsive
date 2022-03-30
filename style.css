@@ -31,6 +31,15 @@ img {
   margin: 1rem auto;
 }
 
+footer {
+  display: block;
+  background-color: lightgreen;
+  height: 3rem;
+  width: 100%;
+  bottom: 0;
+  margin: 0;
+}
+
 @media (min-width: 768px) {
   .box {
     display: flex;
@@ -62,12 +71,6 @@ img {
   }
 
   footer {
-    position: relative;
-    display: block;
-    background-color: lightgreen;
-    height: 3rem;
-    width: 100%;
-    bottom: 0;
-    margin: 0;
+    position: fixed;
   }
 }
